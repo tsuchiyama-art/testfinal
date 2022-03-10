@@ -2,7 +2,7 @@ var express=require("express");
 var router=express.Router();
 
 let opt={
-    title:"Hello",
+    title:"うんこです",
     message:"これは新しいWebページです"
 }
 router.get("/",function(req,res,next){
